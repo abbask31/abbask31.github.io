@@ -298,7 +298,7 @@
   </div>
 
   <div class="intro">
-    <p>👋 Hey, I'm Abbas! I'm a Software Engineer at Adobe, where I build the data pipelines, evaluation infrastructure, and backend systems that power our AI products, from agentic search to agent tracing and evals. Before this I interned across Adobe's ML and eCommerce teams, building data pipelines on Databricks and Spark and the backend systems that made them possible, and had a blast serving as Technical Director for HackDavis while studying Computer Science & Engineering at UC Davis with a focus on deep learning.</p>
+    <p>👋 Hey, I'm Abbas! I'm a Software Engineer at Adobe, where I get to work across agentic search, backend infrastructure, and full-stack development to help ship AI-powered features people actually rely on. Before this I interned across Adobe's checkout and eCommerce systems, and had a blast serving as Technical Director for HackDavis while studying Computer Science at UC Davis with a focus on deep learning.</p>
     <p>Outside of work, you'll usually find me on a soccer field or pickleball court, or catching up on movies. Always happy to chat, so feel free to reach out!</p>
   </div>
 
@@ -314,14 +314,13 @@
         <div class="entry-loc">New York, NY</div>
       </summary>
       <ul>
-        <li>Engineered an agent tracing pipeline capturing <span class="metric">100K+ monthly traces</span> via LangFuse, then fine-tuned agent LLMs on the labeled data, boosting task success rate <span class="metric">from 25% to 70%</span> and cutting prompt tuning from weeks to hours.</li>
-        <li>Developed internal and public-facing APIs in Java and FastAPI as the backend systems powering the tracing, evaluation, and recommendation pipelines.</li>
-        <li>Deployed and operated cloud-native infrastructure using Azure Functions, Blob Storage, and AWS Bedrock to run the production data and AI workloads behind those pipelines.</li>
-        <li>Built an agent evaluation system with guardrails against unstructured outputs and silent failures, increasing result relevance by <span class="metric">45%</span> and cutting undetected failures by <span class="metric">75%</span>.</li>
-        <li>Architected a reusable agent orchestration harness in CrewAI and LangGraph, standardizing cost tracking and observability across teams and cutting agent setup time <span class="metric">from days to minutes</span>.</li>
-        <li>Built an agentic search service and Adobe's first context-aware recommendation app by having agents select search facets from document and parent-app context, driving adoption across <span class="metric">380 customer accounts</span>.</li>
-        <li>Built an automated security alerting system that detects and strips prompt injection and malicious content before it reaches the LLM, cutting triage time <span class="metric">60%</span> and catching <span class="metric">20K+ risks monthly</span>.</li>
-        <li>Built AI-enhanced UI features in TypeScript and ReactJS, including recent-search components and suggested-content panels for agentic experiences.</li>
+        <li>Built an agentic search service and Adobe's first context-aware recommendation app, with agents selecting search facets from document and parent-app context, adopted across <span class="metric">380 customer accounts</span>.</li>
+        <li>Led phased monthly releases of Adobe Experience Manager across <span class="metric">20K environments</span> for <span class="metric">2,000 customers</span>, owning rollback decisions, and built a triage agent that cut manual ticket review <span class="metric">from 10 to 2 hours</span> per release.</li>
+        <li>Rebuilt a legacy Java asset download API to redirect to short-lived Azure Blob SAS URLs, shipped behind feature flags, cutting p95 time-to-first-byte <span class="metric">from 2.8s to 230ms</span> across <span class="metric">300K monthly requests</span>.</li>
+        <li>Engineered an OpenTelemetry tracing pipeline ingesting <span class="metric">7M agent traces monthly</span> into Langfuse, then fine-tuned agent LLMs on <span class="metric">100K labeled traces</span>, raising task success <span class="metric">from 25% to 70%</span>.</li>
+        <li>Developed an agent evaluation system that flags unstructured outputs and silent failures, cutting undetected failures <span class="metric">75%</span> and surfacing issues whose fixes raised result relevance <span class="metric">45%</span>.</li>
+        <li>Designed a security filter and alerting system that strips prompt injection and malicious content before it reaches the LLM, catching <span class="metric">20K+ risks monthly</span> and cutting triage time <span class="metric">60%</span>.</li>
+        <li>Created a session-based agent orchestration harness from scratch with built-in cost tracking and observability, adopted across <span class="metric">4 orgs</span> to serve <span class="metric">500 customers</span> and cutting agent setup <span class="metric">from days to minutes</span>.</li>
       </ul>
     </details>
 
@@ -334,9 +333,9 @@
         <div class="entry-loc">San Jose, CA</div>
       </summary>
       <ul>
-        <li>Led end-to-end data pipeline development on Databricks using SQL and Python to transform high-frequency clickstream data into actionable insights.</li>
-        <li>Engineered data processing solutions using Apache Spark and Airflow to build the ingestion, preprocessing, and orchestration backend behind the pipeline.</li>
-        <li>Spearheaded development of machine learning models on that pipeline's data to predict user checkouts, achieving <span class="metric">~93% accuracy</span> through meticulous software engineering.</li>
+        <li>Spearheaded development of machine learning models to predict user checkouts by leveraging high-frequency clickstream data.</li>
+        <li>Led end-to-end pipeline development on Databricks using SQL and Python to transform raw data into actionable insights.</li>
+        <li>Achieved <span class="metric">~93% accuracy</span> models through various machine learning methods, integrated via meticulous software engineering.</li>
         <li>Planned model deployments and microservice integrations to enable real-time predictions on Adobe.com.</li>
       </ul>
     </details>
@@ -350,10 +349,10 @@
         <div class="entry-loc">San Jose, CA</div>
       </summary>
       <ul>
+        <li>Developed a testing framework for the Adobe Checkout team to validate new, existing, and error scenarios using mock data.</li>
         <li>Restructured the checkout application's distributed system design by incorporating AWS S3 and EC2 to store and return mock responses.</li>
         <li>Designed a testing API in TypeScript with Apollo GraphQL that integrates within existing APIs for seamless testing.</li>
         <li>Implemented Redis caching through an ioredis server for fast retrieval of repeated calls and log analytics.</li>
-        <li>Developed a testing framework for the Adobe Checkout team to validate new, existing, and error scenarios using mock data.</li>
       </ul>
     </details>
 
@@ -403,7 +402,6 @@
       <div class="tags">
         <span class="tag">Linux</span><span class="tag">Docker</span><span class="tag">SQL</span>
         <span class="tag">MongoDB Atlas</span><span class="tag">GraphQL</span><span class="tag">Apache Spark</span>
-        <span class="tag">Airflow</span><span class="tag">Databricks</span>
         <span class="tag">React.js</span><span class="tag">AWS</span><span class="tag">Azure</span>
       </div>
     </div>
